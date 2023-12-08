@@ -2,6 +2,7 @@ const messageApi =
   "https://cepegra-frontend.xyz/chat2/wp-json/wp/v2/messagerie";
 const contentChat = document.querySelector(".content-chat");
 const formChat = document.querySelector(".chat-box");
+
 //--------- affichage du chat ---------//
 fetch(`${messageApi}`)
   .then((res) => res.json())
